@@ -14,5 +14,7 @@ public class Bumper : MonoBehaviour
         rigidbody.AddForce(-dir * 75);
 
         OnHit.Invoke();
+        
+        
     }
 }
